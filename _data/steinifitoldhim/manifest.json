@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "steinifitoldhim" ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/x/Stein.php",
+        "type": "Text",
+        "label": { "en": [ "steinifitoldhim" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "PennSound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 216.0,
+        "items": [
+          {
+            "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Stein/1935/Stein-Gertrude_If-I-told-him_Alt-from-M-Davidson_c1935.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 216.0
+                },
+                "target": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
