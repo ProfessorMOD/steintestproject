@@ -23,6 +23,24 @@
         "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/canvas",
         "type": "Canvas",
         "duration": 216.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://ProfessorMOD.github.io/steintestproject/annotations/steinifitoldhim-canvas-1-historical-reference.json",
+            "label": {
+              "none": ["Historical Reference"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://ProfessorMOD.github.io/steintestproject/annotations/steinifitoldhim-canvas-1-content.json",
+            "label": {
+              "none": ["Content"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/paintings",

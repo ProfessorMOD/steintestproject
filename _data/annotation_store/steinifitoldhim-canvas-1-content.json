@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://ProfessorMOD.github.io/steintestproject/annotations/steinifitoldhim-canvas-1-content.json",
+  "type": "AnnotationPage",
+  "label": "Content",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "steinifitoldhim-canvas-1-content-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Stein announces title",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://ProfessorMOD.github.io/steintestproject/steinifitoldhim/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,5.0"
+        }
+      }
+    }
+  ]
+}
